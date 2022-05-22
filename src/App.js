@@ -7,13 +7,18 @@ import {Footer} from './components/footer'
 const photos =[
   {
     key : 1,
-    src: "https://pbs.twimg.com/media/FSpFqCoWIAMpQQn?format=jpg&name=large",
-    alt: "wesh alors"
+    src: "https://pbs.twimg.com/media/FSBb2u9XMAcynTT?format=jpg&name=large",
+    alt: "plouf le bébé"
   },
   {
     key: 2,
-    src: "https://pbs.twimg.com/media/FSpFqCoWIAMpQQn?format=jpg&name=large",
-    alt: "wesh alors"
+    src: "https://pbs.twimg.com/media/FSBb2FEXMAETlmW?format=jpg&name=large",
+    alt: "c lé fleurs"
+  },
+  {
+    key:3,
+    src: "https://pbs.twimg.com/media/FSBb1bRWQAAedcY?format=jpg&name=large",
+    alt: "c la moto"
   }
 ];
 
