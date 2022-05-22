@@ -12,9 +12,10 @@ export function Photo(props) {
 
 const styles = {
 	photo: {
-		maxWidth: '78%',
+		maxWidth: '70%',
     height: 'auto',
-    maxHeight: '400px',
+    maxHeight: '350px',
 		fontSize: 10,
+    border: '1px solid #dbe4ed',
 	}
 };

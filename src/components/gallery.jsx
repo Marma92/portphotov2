@@ -27,7 +27,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '500px',
+    height: '400px',
   },
   container:{
     display: 'inline-block',
