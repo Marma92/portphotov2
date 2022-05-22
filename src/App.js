@@ -37,11 +37,18 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <h2>{gallery.title}</h2>
+      <h2 style={styles.galleryTitle}>{gallery.title}</h2>
       <Gallery photos={gallery.photos} />
       <Footer/>
     </div>
   );
+}
+
+const styles = {
+  galleryTitle:{
+    textAlign : 'left',
+    marginLeft : '8%',
+  }
 }
 
 export default App;

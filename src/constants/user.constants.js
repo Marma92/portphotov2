@@ -1,1 +1,5 @@
 export const photographerName = "Amram ELBAZ"
+export const portrait = "http://amramelbaz.com/public/imgs/portphoto/000601750029.jpg"
+export const twitter = "https://twitter.com/MarmaTheGhost"
+export const github = "https://github.com/Marma92"
+export const instagram = "https://www.instagram.com/le__marma/"

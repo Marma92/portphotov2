@@ -1,10 +1,23 @@
 import { Component } from 'react';
-import { photographerName } from  '../constants/user.constants';
+import { photographerName, portrait } from  '../constants/user.constants';
 
-const title = "Welcome to "+ photographerName +"'s portfolio"
+const title = photographerName
 
 export class Header extends Component {
   render() {
-    return <h1>{title}</h1>;
+    return (
+    <>
+    <img src={portrait} alt='portrait of the photographer' style={styles.portrait}/>
+    <h1>{title}</h1>
+    </>
+    );
+  }
+}
+
+const styles = {
+  portrait:{
+    borderRadius : '100%',
+    width : '100px',
+    height : 'auto'
   }
 }
