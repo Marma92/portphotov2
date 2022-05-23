@@ -1,0 +1,12 @@
+.footer a{
+  color: #4099FF;
+  opacity: 0.5;
+  transition: 1s;
+  -webkit-transition: 1s;
+}
+.footer a:hover{
+  opacity: 1;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  text-decoration: none;
+}

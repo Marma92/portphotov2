@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Header} from './components/header';
 import {Gallery} from './components/gallery'
-import {Footer} from './components/footer'
+import {Footer} from './components/footer/footer'
 
 const gallery = {
   title: 'Yashica Electro GS x Fujifilm C200',
