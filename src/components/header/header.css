@@ -1,0 +1,22 @@
+.portrait:hover{
+  filter: saturate(100%);
+  transition: 1s;
+}
+
+.portrait{
+  border-radius : 7%;
+  width : 100px;
+  height : auto;
+  filter: saturate(15%);
+  transition: 1s;
+}
+
+@font-face {
+  font-family: 'Westwood-Studio';
+  src: local('Westwood-Studio'), url(../../fonts/Westwood-Studio.ttf) format('truetype');
+}
+
+.title{
+  font-family: Westwood-Studio, serif;
+  color: #313d45;
+}
