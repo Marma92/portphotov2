@@ -3,3 +3,5 @@ export const portrait = "http://amramelbaz.com/public/imgs/portphoto/00060175002
 export const twitter = "https://twitter.com/MarmaTheGhost"
 export const github = "https://github.com/Marma92"
 export const instagram = "https://www.instagram.com/le__marma/"
+export const darkroom = "https://lemarma.darkroom.tech/"
+export const email = "aelbaz.photo@gmail.com"
