@@ -11,11 +11,6 @@
   transition: 1s;
 }
 
-@font-face {
-  font-family: 'Westwood-Studio';
-  src: local('Westwood-Studio'), url(../../fonts/Westwood-Studio.ttf) format('truetype');
-}
-
 .title{
   font-family: Westwood-Studio, serif;
   color: #313d45;
