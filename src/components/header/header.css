@@ -5,14 +5,15 @@
 
 .portrait{
   border-radius : 7%;
-  width : 100px;
+  width : 120px;
   height : auto;
   filter: saturate(15%);
   transition: 1s;
-  margin-right: 2em;
+  margin-right: 5em;
 }
 
 .title{
   font-family: Westwood-Studio, serif;
   color: #313d45;
+  font-size: 2.5em;
 }

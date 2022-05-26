@@ -24,6 +24,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
+    marginBottom: '5%'
   },
   divTitle:{
     marginLeft: '1%',

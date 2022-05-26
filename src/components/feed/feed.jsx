@@ -1,5 +1,5 @@
 import {Gallery} from '../gallery'
-
+import './feed.css'
 
 export function Feed(props) {
   const galleries = props.galleries;
