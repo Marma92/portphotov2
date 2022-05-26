@@ -9,6 +9,7 @@
   height : auto;
   filter: saturate(15%);
   transition: 1s;
+  margin-right: 2em;
 }
 
 .title{

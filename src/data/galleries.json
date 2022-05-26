@@ -1,0 +1,55 @@
+{
+  "galleries": [
+    {
+      "title": "Yashica Electro GS x Fujifilm C200",
+      "photos":
+      [
+        {
+          "key" : 1,
+          "src" : "https://pbs.twimg.com/media/FSBb2u9XMAcynTT?format=jpg&name=large",
+          "alt" : "plouf le bébé"
+        },
+        {
+          "key" : 2,
+          "src" : "https://pbs.twimg.com/media/FSBb2FEXMAETlmW?format=jpg&name=large",
+          "alt" : "c lé fleurs"
+        },
+        {
+          "key" :3,
+          "src" : "https://pbs.twimg.com/media/FSBb1bRWQAAedcY?format=jpg&name=large",
+          "alt" : "c la moto"
+        },
+        {
+          "key" :4,
+          "src" : "https://pbs.twimg.com/media/FSBb044WUAAeAwn?format=jpg&name=large",
+          "alt" : "youpiiii!"
+        }
+      ]
+    },
+    {
+      "title": "NYC (35mm)",
+      "photos": [
+        {
+          "key": 1,
+          "src": "https://pbs.twimg.com/media/FN7KDkMXMAUzKD1?format=jpg&name=large",
+          "alt": "New York City la nuit avec de la fumée et des néons"
+        },
+        {
+          "key": 2,
+          "src": "https://pbs.twimg.com/media/FN7JuYFWQAoG6YF?format=jpg&name=large",
+          "alt": "Les bancs de central park"
+        },
+        {
+          "key": 3,
+          "src": "https://pbs.twimg.com/media/FN7JvGhXoAAE389?format=jpg&name=large",
+          "alt": "La neige au pied d'un arbre à Central Park"
+        },
+        {
+          "key": 4,
+          "src": "https://pbs.twimg.com/media/FN7JvxFXwAM6Igv?format=jpg&name=large",
+          "alt": "Un feu pour piéton à NY. Il est rouge."
+        }
+      ]
+    }
+  ]
+}
