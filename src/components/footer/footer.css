@@ -22,10 +22,10 @@
   color:#ffc106;
 }
 
-.fa-film:hover{
+.fa-print:hover{
   transition: 1s;
   opacity: 1;
-  color: #be4d25;
+  color: #000000;
 }
 
 .fa-twitter-square:hover{

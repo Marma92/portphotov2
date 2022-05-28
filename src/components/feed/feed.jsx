@@ -1,4 +1,4 @@
-import {Gallery} from '../gallery'
+import {Gallery} from '../gallery/gallery'
 import './feed.css'
 
 export function Feed(props) {
