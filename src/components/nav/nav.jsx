@@ -15,29 +15,15 @@ export class Nav extends Component {
   }
 
   displayHome() {
-    console.log('home');
     this.setState({nav : 'home'})
-    return(
-      <div>
-        <Home/>
-      </div>
-    )
   }
 
   displayGallery() {
-    console.log('gallery')
     this.setState({nav : 'gallery'})
-    return (
-      <>
-        <Feed galleries={galleries.galleries}/>
-      </>
-    )
-
   }
 
   displayContact() {
     this.setState({nav : 'contact'})
-    console.log('contact')
   }
 
   render() {
