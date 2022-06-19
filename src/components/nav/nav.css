@@ -24,3 +24,8 @@ button:hover{
   color: rgb(237, 183, 76);
   cursor:pointer;
 }
+
+hr{
+  border: solid 1px #313d45;
+  opacity: 40%;
+}

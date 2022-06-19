@@ -58,12 +58,15 @@ export class Nav extends Component {
         <div className='flexNav'>
           <div className='flexEntry'>
             <button onClick={this.displayHome}> Home </button>
+            {nav === 'home' ? <hr/> : <br/>}
           </div>
           <div  className='flexEntry'>
             <button onClick={this.displayGallery}> Gallery </button>
+            {nav === 'gallery' ? <hr/> : <br/>}
           </div>
           <div  className='flexEntry'>
             <button onClick={this.displayContact}> Contact </button>
+            {nav === 'contact' ? <hr/> : <br/>}
           </div>
         </div>
       {page}
