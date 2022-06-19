@@ -1,20 +1,34 @@
 import {Photo} from '../photo/photo'
 import React from 'react';
+import Lightbox from 'react-image-lightbox';
+import LightboxElement from '../lightbox/lightbox';
 
 
-export function Gallery(props) {
-  const photos = props.photos;
+export class Gallery extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      photoIndex: 0,
+      isOpen: false,
+    };
+  }
+
+  render(){
+    const photos = this.props.photos;
+
     return (
-    <div style={styles.gallery}>
-      {photos.map((photo) =>
-        <div style={styles.container}>
-          <div style={styles.photoContainer}>
-            <Photo photo={photo}/>
+      <div style={styles.gallery}>
+        {photos.map((photo) =>
+          <div style={styles.container}>
+            <div style={styles.photoContainer}>
+              <Photo photo={photo}/>
+              <LightboxElement photos={photos} photo={photo}/>
+            </div>
           </div>
-        </div>
-      )}
-    </div>
-  );
+        )}
+      </div>
+    );
+  }
 }
 
 const styles = {

@@ -3,6 +3,7 @@ import './App.css';
 import { Header } from './components/header/header';
 import { Footer } from './components/footer/footer'
 import { Nav } from './components/nav/nav';
+import 'react-image-lightbox/style.css';
 
 function App() {
   return (
