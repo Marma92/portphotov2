@@ -57,13 +57,13 @@ export class Nav extends Component {
       <>
         <div className='flexNav'>
           <div className='flexEntry'>
-            <button onClick={this.displayHome}> home </button>
+            <button onClick={this.displayHome}> Home </button>
           </div>
           <div  className='flexEntry'>
-            <button onClick={this.displayGallery}> gallery </button>
+            <button onClick={this.displayGallery}> Gallery </button>
           </div>
           <div  className='flexEntry'>
-            <button onClick={this.displayContact}> contact </button>
+            <button onClick={this.displayContact}> Contact </button>
           </div>
         </div>
       {page}
