@@ -1,19 +1,16 @@
-import {Gallery} from '../gallery/gallery'
-import './feed.css'
+import { Gallery } from "../gallery/gallery";
+import "./feed.css";
 
 export function Feed(props) {
   const galleries = props.galleries;
-    return (
+  return (
     <div>
-      {galleries.map((gallery) =>
-      <div>
-        <h2 className='galleryTitle'>{gallery.title}</h2>
-        <Gallery photos={gallery.photos} />
-      </div>
-      )}
+      {galleries.map((gallery, index) => (
+        <div key={index}>
+          <h2 className="galleryTitle">{gallery.title}</h2>
+          <Gallery photos={gallery.photos} />
+        </div>
+      ))}
     </div>
   );
 }
-
-
-

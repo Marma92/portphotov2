@@ -1,52 +1,41 @@
-import {Photo} from '../photo/photo'
-import React from 'react';
-import Lightbox from 'react-image-lightbox';
-import LightboxElement from '../lightbox/lightbox';
+import React, { useState } from "react";
+import { Photo } from "../photo/photo";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
 
+export const Gallery = ({ photos }) => {
+  const [open, setOpen] = useState(false);
 
-export class Gallery extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      photoIndex: 0,
-      isOpen: false,
-    };
-  }
-
-  render(){
-    const photos = this.props.photos;
-
-    return (
-      <div style={styles.gallery}>
-        {photos.map((photo) =>
-          <div style={styles.container}>
-            <div style={styles.photoContainer}>
-              <Photo photo={photo}/>
-              <LightboxElement photos={photos} photo={photo}/>
-            </div>
+  return (
+    <div style={styles.gallery}>
+      {photos.map((photo, index) => (
+        <div key={index} style={styles.container}>
+          <div style={styles.photoContainer}>
+            <Photo photo={photo} onClick={() => setOpen(true)} />
           </div>
-        )}
-      </div>
-    );
-  }
-}
+        </div>
+      ))}
+      <Lightbox open={open} close={() => setOpen(false)} slides={photos} />
+    </div>
+  );
+};
 
 const styles = {
-	gallery : {
-    display: 'table',
-    lineHeight: '50px',
-    width: '100%',
+  gallery: {
+    display: "table",
+    lineHeight: "50px",
+    width: "100%",
   },
-  photoContainer:{
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '400px',
+  photoContainer: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    height: "400px",
   },
-  container:{
-    display: 'inline-block',
-    position: 'relative',
-    width: '33.33%',
-    float: 'left',
-  }
+  container: {
+    display: "inline-block",
+    position: "relative",
+    width: "33.33%",
+    float: "left",
+  },
 };
