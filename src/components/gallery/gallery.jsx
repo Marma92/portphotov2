@@ -5,17 +5,29 @@ import "yet-another-react-lightbox/styles.css";
 
 export const Gallery = ({ photos }) => {
   const [open, setOpen] = useState(false);
+  const [index, setIndex] = useState(0);
 
   return (
     <div style={styles.gallery}>
       {photos.map((photo, index) => (
         <div key={index} style={styles.container}>
           <div style={styles.photoContainer}>
-            <Photo photo={photo} onClick={() => setOpen(true)} />
+            <Photo
+              photo={photo}
+              onClick={() => {
+                setOpen(true);
+                setIndex(index);
+              }}
+            />
           </div>
         </div>
       ))}
-      <Lightbox open={open} close={() => setOpen(false)} slides={photos} />
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        slides={photos}
+        index={index}
+      />
     </div>
   );
 };
